@@ -1,10 +1,13 @@
-console.log(' ====>>>>', '666');
-// console.log(' ====>>>>', Vue);
+console.log(666);
+
+
+
+// console.log(Vue)
 
 new Vue({
     el: "#app",
     data: {
-        message: 'hello koa!'
+        message: "heeloo eeee"
     },
-    delimiters: ['[[', ']]']
+    delimiters: ['[[',']]']
 })
